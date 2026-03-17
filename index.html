@@ -6,7 +6,6 @@
   <meta name="description" content="Página simples de apresentação — aplicação publicada na nuvem (Vercel)." />
   <title>Aplicação Cloud • Isaac Costa</title>
 
-  <!-- Fonte moderna (opcional) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -25,7 +24,7 @@
       --radius: 18px;
     }
 
-    /* Modo claro automático se o sistema estiver em claro */
+
     @media (prefers-color-scheme: light){
       :root{
         --bg1:#eef2ff;
@@ -255,9 +254,9 @@
         </div>
 
         <div class="actions" aria-label="Ações">
-          <!-- Troque os links abaixo pelos seus, se quiser -->
-          <a class="button primary" href="#" onclick="return false;">Ver projeto</a>
-          <a class="button" href="#" onclick="return false;">Repositório</a>
+
+          <a class="button primary" href="https://github.com/IsaacCosta23/atividade-cloud.git" onclick="return false;">Ver projeto</a>
+          <a class="button" href="https://github.com/IsaacCosta23/atividade-cloud.git" onclick="return false;">Repositório</a>
         </div>
       </div>
 
@@ -269,7 +268,7 @@
   </main>
 
   <script>
-    // Atualiza o ano automaticamente
+
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
